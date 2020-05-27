@@ -3,17 +3,19 @@
     padding: 0;
     margin:0;
 }
+
 /*-------navigation------------------*/
 #nav{
     position:sticky;
     top:0;
     z-index: 10;
 }
+
 .navbar-brand {
     text-transform: uppercase;
 }
 .navbar-nav li{
-padding: 10px;
+padding:0px 10px;
 color:black!important;
 font-size: 20px;
 }
@@ -21,15 +23,18 @@ font-size: 20px;
     float:right;
     text-align: left;
 }
-#nav ul li a:hover{
-    color: blue! important;
-    cursor: pointer;
+#nav-bar ul li a:hover{
+    color: white! important;
+    
 }
+.navbar{
+    background: gray;
+};
 .navbar-toggler{
     border:none!important;
 }
 .nav-link{
-    color:black;
+    color:black! important;
     font-weight: 600;
     font-size: 16px;
 }
@@ -43,6 +48,7 @@ font-size: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
     color:rgb(10, 3, 3)! important;
+    background-color: rgb(243, 240, 240);
     
 }
  h2{
@@ -95,6 +101,7 @@ h2::after{
     padding-top: 50px;
     padding-bottom: 50px;
     color:#555;
+     background-color: rgb(243, 240, 240);
 }
 .profile-pic{
     margin-top: 40px;
@@ -158,8 +165,23 @@ padding:4px;
 #contacts{
     background-color: rgb(223, 221, 221);
     transition: 0.5s;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
+.form-control:hover{
+box-shadow: 1px 1px 1px 1px rgb(49, 48, 48);
 
+}
+/*------------------------footer-------------------*/
+#footer{
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding:12px;
+}
+.fa-heart{
+    color:red
+}
 
 
 
